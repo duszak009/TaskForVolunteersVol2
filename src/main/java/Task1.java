@@ -11,7 +11,6 @@ public class Task1 {
     }
 
     static String lenPlusMinus(int number){
-        String s = "";
         StringBuilder plusMinus = new StringBuilder();
         for(int i = number; i > 0; i--){
             if(i % 2 == 0){

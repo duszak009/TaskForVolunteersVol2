@@ -1,15 +1,12 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.util.*;
 
 public class Task4 {
     static int fun(int a){
-        if (a == 0){
+        if (a <=11){
             return a;
         }
-        List<Integer> list = new ArrayList<Integer>();
+        List<Integer> list = new ArrayList<>();
         int number = a;
         while(number != 0){
             list.add(number%10);
